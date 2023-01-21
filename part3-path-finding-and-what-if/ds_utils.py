@@ -3,6 +3,8 @@ import numpy as np
 import graphdatascience
 import itertools
 
+from graphdatascience import GraphDataScience
+
 
 def strfdelta(tdelta, fmt):
     d = {'days': str(tdelta.days).zfill(2)}
@@ -28,11 +30,15 @@ def minutes_to_duration_arr_col(x):
     return x.apply(minutes_to_duration_arr)
 
 
+def drop_graph_by_name(gds: GraphDataScience, graph_name: str):
+    if gds.graph.exists(graph_name).loc['exists']:
+        gds.graph.get(graph_name).drop()
+
+
 def clear_all_graphs(gds):
     g_names = gds.graph.list().graphName.tolist()
     for g_name in g_names:
-        g = gds.graph.get(g_name)
-        gds.graph.drop(g)
+        gds.graph.get(g_name).drop()
 
 
 def historic_path_counts(gds, sid, tid):
