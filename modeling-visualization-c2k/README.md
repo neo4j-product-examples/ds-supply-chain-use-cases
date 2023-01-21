@@ -1,10 +1,10 @@
 # Graph Data Science for Supply Chains
-## Getting Started with Graph Data Model, Exploration, and Visualization
+## Getting Started with Graph Data Modeling, Exploration, and Visualization
 ![Neo4j version](https://img.shields.io/badge/Neo4j->=4.4.9-brightgreen) 
 ![GDS version](https://img.shields.io/badge/GDS->=2.2-brightgreen)
 
 
-This directory contains a notebook along with a couple other resources to replicate the analysis in [Graph Data Science for Supply Chains Part I: Getting Started with Neo4j Graph Data Science and Bloom](https://neo4j.com/developer-blog/supply-chain-neo4j-gds-bloom/). This analysis focuses on
+This directory contains a notebook and bloom perspective to replicate the analysis in [Graph Data Science for Supply Chains Part I: Getting Started with Neo4j Graph Data Science and Bloom](https://neo4j.com/developer-blog/supply-chain-neo4j-gds-bloom/). That analysis focuses on
 
 1. Graph data modeling and ingest for supply chain
 2. Visualising and exploring supply chains processes
