@@ -35,12 +35,12 @@ Graph Data Science has a [large family of algorithms](https://neo4j.com/docs/gra
 To begin the example you need to load the data into a Neo4j Database.  We also recommend using our perspective to match the visualization styling.
 
 ### Loading the Dataset
-We have the dataset available in the form of a Neo4j dump file [here].  If you are using AuraDS you can load this via the [database import process](https://neo4j.com/docs/aura/auradb/importing/import-database/). If you are using a self-managed Neo4j installation you can load this via [neo4 admin database load](https://neo4j.com/docs/operations-manual/current/backup-restore/restore-dump/). 
+We have the dataset available in the form of a Neo4j dump file [here](https://github.com/neo4j-product-examples/ds-supply-chain-use-cases/blob/main/transportation-network-london-underground/neo4j.dump).  If you are using AuraDS you can load this via the [database import process](https://neo4j.com/docs/aura/auradb/importing/import-database/). If you are using a self-managed Neo4j installation you can load this via [neo4 admin database load](https://neo4j.com/docs/operations-manual/current/backup-restore/restore-dump/). 
 
 ### Using Explore/Bloom & Loading the Perspective
 While Neo4j Graph Data Science can be leveraged programmatically for Data Science & Machine Learning pipelines, we will use [Explore (also known as Bloom)](https://neo4j.com/docs/bloom-user-guide/current/) to show how you can explore and analyze the graph through a visual interface.
 
-To help a bit with styling, we have a prepared [this perspective] which will help align the style of the Explore visualizations. See [these directions](https://neo4j.com/docs/bloom-user-guide/current/bloom-perspectives/perspective-creation/#_creating_a_perspective) for importing and using the Bloom Perspective.  
+To help a bit with styling, we have a prepared [this perspective](https://github.com/neo4j-product-examples/ds-supply-chain-use-cases/blob/main/transportation-network-london-underground/bloom-perspective.json) which will help align the style of the Explore visualizations. See [these directions](https://neo4j.com/docs/bloom-user-guide/current/bloom-perspectives/perspective-creation/#_creating_a_perspective) for importing and using the Bloom Perspective.  
 
 
 ## Visualize the London Underground Network
